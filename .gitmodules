@@ -1,0 +1,6 @@
+[submodule "WhereTheWordsBackend"]
+	path = WhereTheWordsBackend
+	url = https://github.com/Wiaci/WhereTheWordsBackend
+[submodule "WhereTheWordsFrontend"]
+	path = WhereTheWordsFrontend
+	url = https://github.com/Wiaci/WhereTheWordsFrontend
