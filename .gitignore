@@ -1,0 +1,13 @@
+back/.idea
+back/.mvn
+back/model
+back/target
+back/.gitignore
+back/HELP.md
+back/IDKWhereTheWords.iml
+back/mvnw
+back/mvnw.cmd
+
+front/.idea
+front/node_modules
+front/text.txt

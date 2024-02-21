@@ -1,0 +1,153 @@
+.word {
+    margin: 2px;
+    width: fit-content;
+    display: inline-block;
+}
+
+.textcontainer {
+    width: auto;
+    max-width: 1000px;
+}
+
+.subst:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.link {
+    display: inline-block;
+    background-color: #fdb010;
+    text-decoration: none;
+    width: 100px;
+    height: 20px;
+    align-content: center;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.wordinfo {
+    width: 200px;
+    height: 60px;
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.userword {
+    background-color: yellow;
+}
+
+li {
+    margin: 10px;
+}
+
+.wordlist {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.topic {
+    border-radius: 3px;
+    background-color: coral;
+    padding: 4px;
+    margin: 2px;
+    text-decoration: none;
+}
+
+textarea {
+    width: 750px;
+    height: 450px;
+}
+
+.source {
+    width: 180px;
+    height: 30px;
+    margin: 5px;
+}
+
+header {
+    background-color: darkblue;
+    height: 40px;
+    padding-top: 10px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.links {
+    width: 500px;
+}
+
+select {
+    width: 40px;
+    text-align: center;
+}
+
+.main {
+    padding: 10px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+    background-color: #fdb010;
+    border-radius: 5px;
+}
+
+button:hover, .link.newAccount:hover {
+    background-color: rgba(253, 176, 16, 0.71);
+    cursor: pointer;
+}
+
+.wordcontainer {
+    display: inline-block;
+}
+
+.any {
+    white-space: pre-line
+}
+
+span {
+    display: inline;
+}
+
+.break {
+    width: 1000px;
+}
+
+.login {
+    width: 300px;
+    height: 200px;
+    margin: 200px auto auto;
+}
+
+.loginField {
+    margin: 2px 2px 2px 60px;
+    text-align: center;
+    height: 25px;
+}
+
+.loginButton {
+    margin-left: 60px;
+    color: black;
+    width: 170px;
+}
+
+.link.newAccount {
+    margin-left: 60px;
+    width: 157px;
+    border: 2px solid black;
+    color: black;
+}
+
+button.status {
+    margin: 0;
+}
