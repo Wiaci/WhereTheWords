@@ -34,11 +34,6 @@ public class AuthenticationController {
 
     @PostMapping("/login")
     public ResponseEntity<UserDto> login(@RequestBody UserDetailsDto userDetails) {
-        Text text = new Text("basic text", "test", new ArrayList<>(), TextStatus.ADDED);
-        TextAdditionDto textAdditionDto = new TextAdditionDto(text);
-        textService.suggestText(textAdditionDto, new ArrayList<>());
-        textAdditionDto.setId(1L);
-        textService.addNewTextWithTopics(textAdditionDto);
         System.out.println(userDetails.getUsername() + " " + userDetails.getPassword());
         UserDto userDto = userService.authenticateUser(userDetails);
         ResponseEntity<UserDto> entity;

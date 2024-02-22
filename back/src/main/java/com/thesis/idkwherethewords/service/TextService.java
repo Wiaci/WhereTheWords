@@ -24,7 +24,7 @@ public class TextService {
 
     public int i = 0;
 
-    @PostConstruct
+    /*@PostConstruct
     public void reset() {
         List<Text> texts = textRepo.findAll();
         texts.forEach(text -> {
@@ -35,7 +35,7 @@ public class TextService {
                 System.out.println(i + "/" + texts.size());
             }
         });
-    }
+    }*/
 
     public void suggestText(TextAdditionDto textAdditionDto, List<Topic> topics) {
         Text text = new Text(textAdditionDto.getText(),
